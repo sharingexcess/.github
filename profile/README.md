@@ -1,6 +1,6 @@
 # Hey There! We're Sharing Excess, and we're building software to solve scarcity with surplus.
 
-![Sharing Excess Team](profile/se.jpeg)
+![Sharing Excess Team](profile/seBoxTruck.jpg)
 
 Sharing Excess is a nonprofit organization based in Philadelphia, PA. We're a young startup team working to fight food insecurity in our local community by solving the last mile problem for surplus food from wholesale markets, grocery stores, and restaurants. We source, rescue, and redistribute food to local partners, and have delivered over 3,000,000 lbs. of food since 2018.
 
