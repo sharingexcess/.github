@@ -30,14 +30,14 @@ We're currently maintaing 3 primary repos - our Food Rescue App, our public webs
 
 ### `rescue`
 
-| ![1](profile/rescue1.png) | ![2](profile/rescue1.png) | ![3](profile/rescue1.png) |
+| ![1](profile/rescue1.png) | ![2](profile/rescue2.png) | ![3](profile/rescue3.png) |
 | ------------------------- | ------------------------- | ------------------------- |
 
 The Food Rescue App (FRA) is a progressive web app built on React, SASS, Firebase, and Github Actions. The app allows SE admins to manage drivers and volunteers, schedule pickups and deliveries with local partner organizations, and track analytics and impact metrics. Integrated with Google Maps and Google Calendar, the FRA is a crucial to our volunteers getting where they need to go.
 
 ### `sharingexcess.com`
 
-| ![1](profile/website1.png) | ![2](profile/website1.png) | ![3](profile/website1.png) |
+| ![1](profile/website1.png) | ![2](profile/website2.png) | ![3](profile/website3.png) |
 | -------------------------- | -------------------------- | -------------------------- |
 
 sharingexcess.com is our public facing site, built on React, Next.js, Typescript, and SASS. We aim to use use as much UI as possible from the SE Design System to make our pages modular, extensible, and responsive. The goal is for new content to take as little dev time as possible! Because that always works perfectly!
