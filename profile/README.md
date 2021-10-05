@@ -10,8 +10,6 @@ Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source
 \
 &nbsp;
 
-## Current Contributors
-
 | ![Ryan](profile/ryan.png) | ![Luke](profile/luke.png) |
 | :-----------------------: | :-----------------------: |
 |       Ryan McHenry        |         Luke Shin         |
