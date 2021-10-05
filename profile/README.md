@@ -4,6 +4,9 @@
 
 Sharing Excess is a nonprofit organization based in Philadelphia, PA. We're a young startup team working to fight food insecurity in our local community by solving the last mile problem for surplus food from wholesale markets, grocery stores, and restaurants. We source, rescue, and redistribute food to local partners, and have delivered over 3,000,000 lbs. of food since 2018.
 
+\
+&nbsp;
+
 ## Who We Are
 
 Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source contributors working to build tools that make real impact. We work hard to build a community based on collaborative learning, constant exploration, and easy-to-read code that makes it easy for new folx to jump in and help.
@@ -21,6 +24,9 @@ Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source
 | :---------------: | :---------------------: | :-----------------------: |
 | Sam Nguyen | Armando Parra | Abdullah Dawud-Sulaiman |
 | Software Engineer | Software Engineer | Software Engineer |
+
+\
+&nbsp;
 
 ## What We're Working On
 
@@ -45,3 +51,7 @@ sharingexcess.com is our public facing site, built on React, Next.js, Typescript
 ![1](profile/designsystem.png)
 
 The SE Design System is a public NPM package that contains our base UI components and reusable styles. We maintain our design specs in Figma, and work to keep this repo and the spec as tightly integrated as possible.
+
+## Get involved!
+
+We will always have more projects on the table than we can possibly take on at one time. How's your JS? Interested in contributing to open source? We would LOVE to have you. Reach out to us here or at tech@sharingexcess.com! We work hard to keep our projects up to date on Github Issues and Projects, and are always happy to exchange knowledge and work on cool code with anyone who's interested in helping.
