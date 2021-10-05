@@ -37,8 +37,8 @@ The Food Rescue App (FRA) is a progressive web app built on React, SASS, Firebas
 
 ### `sharingexcess.com`
 
-| ![1](profile/website1.png) | ![2](profile/website1.png) | ![3](profile/website1.png)\  |
-| -------------------------- | -------------------------- | ---------------------------- |
+| ![1](profile/website1.png) | ![2](profile/website1.png) | ![3](profile/website1.png) |
+| -------------------------- | -------------------------- | -------------------------- |
 
 sharingexcess.com is our public facing site, built on React, Next.js, Typescript, and SASS. We aim to use use as much UI as possible from the SE Design System to make our pages modular, extensible, and responsive. The goal is for new content to take as little dev time as possible! Because that always works perfectly!
 
