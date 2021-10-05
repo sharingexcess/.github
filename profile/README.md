@@ -37,7 +37,7 @@ We're currently maintaing 3 primary repos - our Food Rescue App, our public webs
 | ![1](profile/rescue_1.png) | ![2](profile/rescue_2.png) | ![3](profile/rescue_3.png) |
 | -------------------------- | -------------------------- | -------------------------- |
 
-The Food Rescue App (FRA) is a progressive web app built on React, SASS, Firebase, and Github Actions. The app allows SE admins to manage drivers and volunteers, schedule pickups and deliveries with local partner organizations, and track analytics and impact metrics. Integrated with Google Maps and Google Calendar, the FRA is a crucial for our volunteers to get where they need to go.
+The Food Rescue App (FRA) is a progressive web app built on React, SASS, Firebase, and Github Actions. The app allows SE admins to manage drivers and volunteers, schedule pickups and deliveries with local partner organizations, and track analytics and impact metrics. Integrated with Google Maps and Google Calendar, the FRA is crucial for our volunteers to get to where they need to go.
 
 \
 &nbsp;
