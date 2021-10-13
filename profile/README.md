@@ -20,7 +20,7 @@ Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source
 
 \
 &nbsp;
-| ![Sam](profile/sam.png) | ![Armando](profile/armando.png) | ![Abdullah](profile/abdullah.png) |
+| ![Sam](profile/sam.png) | ![Armando](profile/armando.png) | ![Abdullah](profile/abdul.png) |
 | :---------------: | :---------------------: | :-----------------------: |
 | Sam Nguyen | Armando Parra | Abdullah Dawud-Sulaiman |
 | Software Engineer | Software Engineer | Software Engineer |
