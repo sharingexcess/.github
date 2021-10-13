@@ -1,6 +1,6 @@
 # Hey There! We're Sharing Excess, and we're building software to solve scarcity with surplus.
 
-![Sharing Excess Team](profile/se.jpeg)
+![Sharing Excess Team](profile/seBoxTruck.jpg)
 
 Sharing Excess is a nonprofit organization based in Philadelphia, PA. We're a young startup team working to fight food insecurity in our local community by solving the last mile problem for surplus food from wholesale markets, grocery stores, and restaurants. We source, rescue, and redistribute food to local partners, and have delivered over 3,000,000 lbs. of food since 2018.
 
@@ -37,7 +37,7 @@ We're currently maintaing 3 primary repos - our Food Rescue App, our public webs
 | ![1](profile/rescue_1.png) | ![2](profile/rescue_2.png) | ![3](profile/rescue_3.png) |
 | -------------------------- | -------------------------- | -------------------------- |
 
-The Food Rescue App (FRA) is a progressive web app built on React, SASS, Firebase, and Github Actions. The app allows SE admins to manage drivers and volunteers, schedule pickups and deliveries with local partner organizations, and track analytics and impact metrics. Integrated with Google Maps and Google Calendar, the FRA is a crucial to our volunteers getting where they need to go.
+The Food Rescue App (FRA) is a progressive web app built on React, SASS, Firebase, and Github Actions. The app allows SE admins to manage drivers and volunteers, schedule pickups and deliveries with local partner organizations, and track analytics and impact metrics. Integrated with Google Maps and Google Calendar, the FRA is crucial for our volunteers to get to where they need to go.
 
 \
 &nbsp;
@@ -47,7 +47,7 @@ The Food Rescue App (FRA) is a progressive web app built on React, SASS, Firebas
 | ![1](profile/website_1.png) | ![2](profile/website_2.png) | ![3](profile/website_3.png) |
 | --------------------------- | --------------------------- | --------------------------- |
 
-sharingexcess.com is our public facing site, built on React, Next.js, Typescript, and SASS. We aim to use use as much UI as possible from the SE Design System to make our pages modular, extensible, and responsive. The goal is for new content to take as little dev time as possible! Because that always works perfectly!
+sharingexcess.com is our public facing site, built on React, Next.js, Typescript, and SASS. We aim to use as much UI as possible from the SE Design System to make our pages modular, extensible, and responsive. The goal is for new content to take as little dev time as possible! Because that always works perfectly!
 
 \
 &nbsp;
