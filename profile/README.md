@@ -16,14 +16,23 @@ Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source
 | ![Ryan](profile/ryan.png) | ![Luke](profile/luke.png) |
 | :-----------------------: | :-----------------------: |
 |       Ryan McHenry        |         Luke Shin         |
-|    Technology Director    |      Project Manager      |
+|    Director of Technology    |      Project Manager      |
 
 \
 &nbsp;
-| ![Sam](profile/sam.png) | ![Armando](profile/armando.png) | ![Abdullah](profile/abdul.png) |
-| :---------------: | :---------------------: | :-----------------------: |
-| Sam Nguyen | Armando Parra | Abdullah Dawud-Sulaiman |
-| Software Engineer | Software Engineer | Software Engineer |
+| ![Abdullah](profile/abdul.png) | ![Armando](profile/armando.png) |
+| :---------------------: | :-----------------------: |
+| Abdullah Dawud-Sulaiman | Armando Parra |
+| Software Engineer | Software Engineer |
+
+\
+&nbsp;
+| ![Sam](profile/sam.png) | ![Valentina](profile/valentina.png) |
+| :---------------: | :-----------------------: |
+| Sam Nguyen | Valentina Angelkova |
+| Software Engineer | Graphic Design  |
+
+\
 
 \
 &nbsp;
