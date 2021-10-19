@@ -7,7 +7,7 @@ Sharing Excess is a nonprofit organization based in Philadelphia, PA. We're a yo
 \
 &nbsp;
 
-## Who We Are
+## Current Contributors
 
 Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source contributors working to build tools that make real impact. We work hard to build a community based on collaborative learning, constant exploration, and easy-to-read code that makes it easy for new folx to jump in and help.
 \
@@ -33,11 +33,9 @@ Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source
 | Software Engineer | Graphic Design  |
 
 \
-
-\
 &nbsp;
 
-## What We're Working On
+## What We're Up To
 
 We're currently maintaing 3 primary repos - our Food Rescue App, our public website, and our design system/UI Component kit that powers everything.
 
