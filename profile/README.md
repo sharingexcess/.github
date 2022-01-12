@@ -29,7 +29,7 @@ Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source
 &nbsp;
 | ![Sam](profile/sam.png) | ![Valentina](profile/valentina.png) |
 | :---------------: | :-----------------------: |
-| Sam Nguyen (she/her) | Valentina Angelkova (she-her) |
+| Sam Nguyen (she/her) | Valentina Angelkova (she/her) |
 | Software Engineer | Graphic Design  |
 
 \
