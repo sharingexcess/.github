@@ -13,31 +13,25 @@ Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source
 \
 &nbsp;
 
-| ![Ryan](profile/ryan.png) | ![Luke](profile/luke.png) |
+| ![Ryan](profile/Ryan.png) | ![Armando](profile/Armando.png) |
 | :-----------------------: | :-----------------------: |
-|       Ryan McHenry (he/him)       |         Luke Shin (she/her)         |
-|    Director of Technology    |      Project Manager      |
+|       Ryan McHenry (he/him)       |         Armando Parra (he/him)         |
+|    Director    |      Lead Engineer      |
 
 \
 &nbsp;
-| ![Abdullah](profile/abdul.png) | ![Armando](profile/armando.png) |
+| ![Roghe](profile/Roghe.png) | ![Jill](profile/Jill.png) |
 | :---------------------: | :-----------------------: |
-| Abdullah Dawud-Sulaiman (he/him) | Armando Parra (he/him) |
-| Software Engineer | Software Engineer |
+| Roghe Emudainohwo (he/him) | Jill Tracy |
+| Software Engineer | UI/UX Design |
 
 \
 &nbsp;
-| ![Sam](profile/sam.png) | ![Valentina](profile/valentina.png) |
-| :---------------: | :-----------------------: |
-| Sam Nguyen (she/her) | Valentina Angelkova (she/her) |
-| Software Engineer | Graphic Design  |
 
-\
-&nbsp;
 
 ## What We're Up To
 
-We're currently maintaing 3 primary repos - our Food Rescue App, our public website, and our design system/UI Component kit that powers everything.
+We're currently maintaing 4 primary repos - our Food Rescue App, Sharing Good (our collaboration with For Good PGH), our public website, and our design system/UI Component kit that powers everything.
 
 ### `rescue`
 
