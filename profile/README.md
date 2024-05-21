@@ -1,67 +1,20 @@
 # Hey There! We're Sharing Excess, and we're building software to solve scarcity with surplus.
 
-![Sharing Excess Team](profile/seBoxTruck.jpg)
-
-Sharing Excess is a nonprofit organization based in Philadelphia, PA. We're a young startup team working to fight food insecurity in our local community by solving the last mile problem for surplus food from wholesale markets, grocery stores, and restaurants. We source, rescue, and redistribute food to local partners, and have delivered over 3,000,000 lbs. of food since 2018.
-
-\
-&nbsp;
+Sharing Excess is a nonprofit organization based in Philadelphia, PA. We work to fight food insecurity around the country by solving the last mile problem for surplus food from wholesale markets, grocery stores, and restaurants. We source, rescue, and redistribute food to local partners, and have delivered over 45,000,000 lbs. of food since 2018.
 
 ## Current Contributors
 
-Tech @ Sharing Excess is a scrappy team of volunteers, students, and open source contributors working to build tools that make real impact. We work hard to build a community based on collaborative learning, constant exploration, and easy-to-read code that makes it easy for new folx to jump in and help.
-\
-&nbsp;
+Tech @ Sharing Excess is a scrappy team of volunteers, students, and contributors working to build tools that make real impact. We work hard to build a community based on collaborative learning, constant exploration, and easy-to-read code that makes it easy for new folks to jump in and help.
 
-| ![Ryan](profile/Ryan.png) | ![Armando](profile/Armando.png) |
-| :-----------------------: | :-----------------------: |
-|       Ryan McHenry (he/him)       |         Armando Parra (he/him)         |
-|    Director    |      Lead Engineer      |
-
-\
-&nbsp;
-| ![Roghe](profile/Roghe.png) | ![Jill](profile/Jill.png) |
-| :---------------------: | :-----------------------: |
-| Roghe Emudainohwo (he/him) | Jill Tracy |
-| Software Engineer | UI/UX Design |
-
-\
-&nbsp;
+@ryanmarshallmc
+@shashanoid
+@truongductri01
 
 
-## What We're Up To
+## The SE Platform
 
-We're currently maintaing 4 primary repos - our Food Rescue App, Sharing Good (our collaboration with For Good PGH), our public website, and our design system/UI Component kit that powers everything.
+Our tech platform consists of a number of data systems, servers, and web + mobile based clients that allow the SE team to rescue food around the clock, around the country. Here's a basic (and hopefully current) map of the system (updated May 2024):
 
-### `rescue`
+![System Architecture](./system_architecture.png)
 
-| ![1](profile/rescue_1.png) | ![2](profile/rescue_2.png) | ![3](profile/rescue_3.png) |
-| -------------------------- | -------------------------- | -------------------------- |
-
-The Food Rescue App (FRA) is a progressive web app built on React, SASS, Firebase, and Github Actions. The app allows SE admins to manage drivers and volunteers, schedule pickups and deliveries with local partner organizations, and track analytics and impact metrics. Integrated with Google Maps and Google Calendar, the FRA is crucial for our volunteers to get to where they need to go.
-
-\
-&nbsp;
-
-### `sharingexcess.com`
-
-| ![1](profile/website_1.png) | ![2](profile/website_2.png) | ![3](profile/website_3.png) |
-| --------------------------- | --------------------------- | --------------------------- |
-
-sharingexcess.com is our public facing site, built on React, Next.js, Typescript, and SASS. We aim to use as much UI as possible from the SE Design System to make our pages modular, extensible, and responsive. The goal is for new content to take as little dev time as possible! Because that always works perfectly!
-
-\
-&nbsp;
-
-### `designsystem`
-
-![1](profile/designsystem.png)
-
-The SE Design System is a public NPM package that contains our base UI components and reusable styles. We maintain our design specs in Figma, and work to keep this repo and the spec as tightly integrated as possible.
-
-\
-&nbsp;
-
-## Get involved!
-
-We will always have more projects on the table than we can possibly take on at one time. How's your JS? Interested in contributing to open source? We would LOVE to have you. Reach out to us here or at tech@sharingexcess.com! We work hard to keep our projects up to date on Github Issues and Projects, and are always happy to exchange knowledge and work on cool code with anyone who's interested in helping.
+View the system architecture in [Figma](https://www.figma.com/board/A3F4g1bKS3iPit9UhfbpuI/SE-Tech---System-Architecture?node-id=0%3A1&t=s7QtRaC8GjB2v1Ah-1)
