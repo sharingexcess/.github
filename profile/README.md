@@ -15,6 +15,6 @@ Tech @ Sharing Excess is a scrappy team of volunteers, students, and contributor
 
 Our tech platform consists of a number of data systems, servers, and web + mobile based clients that allow the SE team to rescue food around the clock, around the country. Here's a basic (and hopefully current) map of the system (updated May 2024):
 
-![System Architecture](./system_architecture.png)
+![System Architecture](system_architecture.png)
 
 View the system architecture in [Figma](https://www.figma.com/board/A3F4g1bKS3iPit9UhfbpuI/SE-Tech---System-Architecture?node-id=0%3A1&t=s7QtRaC8GjB2v1Ah-1)
