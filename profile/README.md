@@ -6,8 +6,8 @@ Sharing Excess is a nonprofit organization based in Philadelphia, PA. We work to
 
 Tech @ Sharing Excess is a team of volunteers, students, and part and full-time contributors working to build tools that enable SE to create impact across the country. We work hard to build a community based on collaborative learning, constant exploration, and easy-to-read code that makes it easy for new folks to jump in and help.
 
-@ryanmarshallmc
-@shashanoid
+[@ryanmarshallmc](https://github.com/ryanmarshallc)
+[@shashanoid](https://github.com/shashanoid)
 
 ## The SE Platform
 
