@@ -33,9 +33,9 @@ We understand that our work today may not look exactly like our work tomorrow, a
 
 ## The SE Platform
 
-Our tech platform consists of a number of data systems, servers, and web + mobile based clients that allow the SE team to rescue food around the clock, around the country. Here's a basic (and hopefully current) map of the system (updated August 2024):
+Our tech platform consists of a number of data systems, servers, and web + mobile based clients that allow the SE team to rescue food around the clock, around the country. Here's a basic (and hopefully current) map of the system (updated January 2025):
 
-![System Architecture](system_architecture.png)
+![system_architechture](https://github.com/user-attachments/assets/0ffb8e2e-22dc-4408-9b88-1472c5b576b3)
 
 View the system architecture in [Figma](https://www.figma.com/board/A3F4g1bKS3iPit9UhfbpuI/SE-Tech---System-Architecture?node-id=0%3A1&t=s7QtRaC8GjB2v1Ah-1)
 
