@@ -12,8 +12,7 @@ Tech @ Sharing Excess is a team of volunteers, students, and part and full-time 
 ### Current Contributors
 
 Ryan McHenry: [@ryanmarshallmc](https://github.com/ryanmarshallmc)
-Shashwat Singh: [@shashanoid](https://github.com/shashanoid)
-Mohammad Abdullah: [@notabd7](https://github.com/notabd7)
+Tate Gallagher: [@tategallagher](https://github.com/tategallagher)
 
 ### Tech Team Mission
 
