@@ -1,22 +1,23 @@
 
 # Hey There! We're Sharing Excess, and we're building software to solve scarcity with surplus.
 
-Sharing Excess is a nonprofit organization based in Philadelphia, PA. We work to fight food insecurity around the country by bridging the gap between excess food and community food relief organizations. We source, rescue, and redistribute food from grocery stores, wholesalers, and farms, and have distributed over 80,000,000 lbs. to our network of over 1,000 community partners in Philadelphia, New York, Washington DC, and across the country.
+Sharing Excess is a 501(c)(3) nonprofit organization based in Philadelphia, PA. We work across the country to fight food insecurity by redistributing surplus food from farms, wholesalers, and retailers to local community hunger organizations. Since 2018, we've managed the distribution of over 150 million lbs. of food to our network of over 1,500 community partners in Philadelphia, New York, Washington DC, Chicago, Detroit, Los Angeles, and across the country.
 
 Learn more about Sharing Excess at [sharingexcess.com](https://sharingexcess.com).
 
 ## Our Team
 
-Tech @ Sharing Excess is a team of volunteers, students, and part and full-time contributors working to build tools that enable SE to create impact across the country. We work hard to build a community based on collaborative learning, constant exploration, and easy-to-read code that makes it easy for new folks to jump in and help.
+Tech @ Sharing Excess is a team of volunteers, students, part and full-time contributors. We work to build tools that enable SE to create impact across the country in a way that's efficient, transparent, and deeply measurable. We work hard to build a community based on collaborative learning, constant exploration, and easy-to-read code that makes it easy for new folks to jump in and help.
 
 ### Current Contributors
 
 Ryan McHenry: [@ryanmarshallmc](https://github.com/ryanmarshallmc)
 Tate Gallagher: [@tategallagher](https://github.com/tategallagher)
+Satwik Shresth: [@satwikShresth](https://github.com/satwikShresth)
 
 ### Tech Team Mission
 
-Tech@SE works to simplify food rescue. We design and develop tools to make the complex work of food distribution easy to understand and measure. We provide our partners and funders with best-in-class data and insights, enabling us to build a continuously expanding network that is easy to join, and even easier to support.
+Tech@SE works to make food rescue as simple and transparent as possible. We design and develop tools to provide a shared language and framework for rescuing food, connecting our food donors, recipients, staff, and philanthropic funders with all of the information they need to get people fed. We provide our partners and funders with best-in-class data and insights, enabling us to build a continuously expanding network that is easy to join, and even easier to support.
 
 ### Tech Team Values
 
@@ -27,21 +28,25 @@ Food rescue is inherently complex, and incredibly dynamic. We strive to build pr
 Sharing Excess's mission requires the support of partners and funders, and we continuously work to earn their trust by providing an unmatched level of transparency into the impact we create. We loathe "magic numbers", and aim to "show our work" with precise and detailed calculations in all of our products and services.
 
 #### Adaptability
-We understand that our work today may not look exactly like our work tomorrow, and prioritize building tools and models that can grow with us. We consciously balance creating tailored experiences and over-optimizing for the present. 
+We understand that our work today may not look exactly like our work tomorrow, and prioritize building tools and models that can grow and change with us. We consciously balance creating tailored experiences against the urge to over-optimize for the present. 
 
 
 ## The SE Platform
 
-Our tech platform consists of a number of data systems, servers, and web + mobile based clients that allow the SE team to rescue food around the clock, around the country. Here's a basic (and hopefully current) map of the system (updated January 2025):
+Our tech platform consists of a number of data systems, servers, and web + mobile based clients that allow the SE team to rescue food around the clock, around the country. Here's a basic (and hopefully current) map of the system (updated September 2025):
 
-![system_architechture](https://github.com/user-attachments/assets/0ffb8e2e-22dc-4408-9b88-1472c5b576b3)
+<br />
 
-View the system architecture in [Figma](https://www.figma.com/board/A3F4g1bKS3iPit9UhfbpuI/SE-Tech---System-Architecture?node-id=0%3A1&t=s7QtRaC8GjB2v1Ah-1)
+<img width="100%" alt="system architecture" src="https://github.com/user-attachments/assets/2474b0df-251e-4751-84f9-7fcbe4e9e08a" />
+
+_View the system architecture in [Figma](https://www.figma.com/board/A3F4g1bKS3iPit9UhfbpuI/SE-Tech---System-Architecture?node-id=0%3A1&t=s7QtRaC8GjB2v1Ah-1)_
+
+<br />
 
 ## Tools we use
 
-First and foremost, we are a Javascript + Typescript shop, for the front and back end respectively. Our current system is comprised of individual code repositories for each frontend client, including our main "app" ([app.sharingexcess.com](https://github.com/sharingexcess/se-app)) and our partner dashboards ([partners.sharingexcess.com](https://github.com/sharingexcess/se-partners)), and our set of backend services ([se-services](https://github.com/sharingexcess/se-services)).
+First and foremost, we are a Typescript shop, for the front and back end. Our current system is based in a [monorepo](https://github.com/sharingexcess/sharingexcess), with apps/packages for each service, including our frontend PWA-based app, our API server, our database configuration, and our type/schema definitions.
 
-Our frontend apps use [React](https://react.dev) (currently v18), built and packaged using [Vite](https://vitejs.dev) (and specifically [VitePWA](https://vite-pwa-org.netlify.app) for mobile native install and offline support). We use [Chakra UI](https://v2.chakra-ui.com) as our primary UI library, and [Clerk](https://clerk.com) for user management and authentication. We deploy and host our apps with [Vercel](vercel.com).
+Our frontend app uses [React](https://react.dev) (currently v18), built and packaged using [Vite](https://vitejs.dev) (and specifically [VitePWA](https://vite-pwa-org.netlify.app) for mobile native install and offline support). We use [Chakra UI](https://v2.chakra-ui.com) as our primary UI library, and [Clerk](https://clerk.com) for user management and authentication. We deploy via [Railway](https://railway.com) with a simple web server.
 
-Our backend tooling uses an [Express](https://expressjs.com) API (services.sharingexcess.com), cron-job services using Vercel, and our database configuration, all written in Typescript and Node. Our PostgreSQL database is configured with [Drizzle ORM](https://orm.drizzle.team) for schema and connection management, and hosted with [Neon](https://neon.tech). We also use [Zod](https://zod.dev) for Typescript type definition and checking, [Clerk](https://clerk.com) for user management and authentication, [Retool](https://retool.com) for external data visualizations, and [Resend](https://resend.com) for sending transactional emails.
+Our backend tooling uses a [Hono](https://hono.dev) API (api.sharingexcess.com), cron-job services using Railway cron instances, and our database configuration, all written in Typescript and Node. Our PostgreSQL database is configured with [Drizzle ORM](https://orm.drizzle.team) for schema and connection management, and hosted with [Neon](https://neon.tech). We also use [Zod](https://zod.dev) for Typescript type definition and checking, [Clerk](https://clerk.com) for user management and authentication, [Retool](https://retool.com) for external data visualizations, and [Resend](https://resend.com) for sending transactional emails.
