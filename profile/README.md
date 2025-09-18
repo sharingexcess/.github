@@ -45,8 +45,16 @@ _View the system architecture in [Figma](https://www.figma.com/board/A3F4g1bKS3i
 
 ## Tools we use
 
-First and foremost, we are a Typescript shop, for the front and back end. Our current system is based in a [monorepo](https://github.com/sharingexcess/sharingexcess), with apps/packages for each service, including our frontend PWA-based app, our API server, our database configuration, and our type/schema definitions.
+First and foremost, we are a Typescript shop, for the front and back end. Our system is entirely based in a [monorepo](https://github.com/sharingexcess/sharingexcess), with apps/packages for each service, including our frontend PWA-based app, our API server, our database configuration, and our type/schema definitions.
 
-Our frontend app uses [React](https://react.dev) (currently v18), built and packaged using [Vite](https://vitejs.dev) (and specifically [VitePWA](https://vite-pwa-org.netlify.app) for mobile native install and offline support). We use [Chakra UI](https://v2.chakra-ui.com) as our primary UI library, and [Clerk](https://clerk.com) for user management and authentication. We deploy via [Railway](https://railway.com) with a simple web server.
+We're big supporters of [Bun](https://bun.com) and use it as our runtime for all services (as well as package management).
 
-Our backend tooling uses a [Hono](https://hono.dev) API (api.sharingexcess.com), cron-job services using Railway cron instances, and our database configuration, all written in Typescript and Node. Our PostgreSQL database is configured with [Drizzle ORM](https://orm.drizzle.team) for schema and connection management, and hosted with [Neon](https://neon.tech). We also use [Zod](https://zod.dev) for Typescript type definition and checking, [Clerk](https://clerk.com) for user management and authentication, [Retool](https://retool.com) for external data visualizations, and [Resend](https://resend.com) for sending transactional emails.
+We deploy and host our services using [Docker](https://www.docker.com) on [Railway](https://railway.com), while DNS and Blob Storage are managed on [Vercel](https://vercel.com).
+
+We use [Sentry](https://sentry.io) for error handling across our entire stack, [Mixpanel](https://mixpanel.com) for product analytics, and [APITally](https://apitally.io) for server analytics.
+
+All of our AI + LLM tooling is powered by [Anthropic](https://anthropic.com) proxied by our API server.
+
+Our frontend app uses [React](https://react.dev) (currently v18), built and packaged using [Vite](https://vitejs.dev) (and specifically [VitePWA](https://vite-pwa-org.netlify.app) for mobile native install and offline support). We use [Chakra UI](https://v2.chakra-ui.com) as our primary UI library, [Tanstack Query](https://tanstack.com/query) for data fetching, [Tanstack Form](https://tanstack.com/form) for form management, [Tanstack Store](https://tanstack.com/store) for state management (yep, big Tanstack fans), [Clerk](https://clerk.com) for user management and authentication, and [Mapbox](https://mapbox.com) for all location services and routing.
+
+Our backend tooling uses a [Hono](https://hono.dev) API, with cron services handled by separate Railway cron instances built with Docker. Our PostgreSQL database is configured with [Drizzle ORM](https://orm.drizzle.team) for schema and connection management, and hosted with [Neon](https://neon.tech). We also use [Zod](https://zod.dev) for Typescript type definition and checking, [Clerk](https://clerk.com) for user management and authentication, [Retool](https://retool.com) for external data visualizations, and [Resend](https://resend.com) for sending transactional emails.
