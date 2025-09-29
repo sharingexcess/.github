@@ -45,11 +45,11 @@ _View the system architecture in [Figma](https://www.figma.com/board/A3F4g1bKS3i
 
 ## Tools we use
 
-First and foremost, we are a Typescript shop, for the front and back end. Our system is entirely based in a [monorepo](https://github.com/sharingexcess/sharingexcess), with apps/packages for each service, including our frontend PWA-based app, our API server, our database configuration, and our type/schema definitions.
+First and foremost, we are a Typescript shop, for the front and back end. Our system is entirely based in a [monorepo](https://github.com/sharingexcess/sharingexcess), with apps/packages for each service, including our frontend PWA-based app, our API server, our Storage/S3 proxy server, our cron-based services, our database configuration, and our type/schema definitions.
 
 We're big supporters of [Bun](https://bun.com) and use it as our runtime for all services (as well as package management).
 
-We deploy and host our services using [Docker](https://www.docker.com) on [Railway](https://railway.com), while DNS and Blob Storage are managed on [Vercel](https://vercel.com).
+We deploy and host our services using [Docker](https://www.docker.com) on [Railway](https://railway.com), also using their S3 service for object storage via the Bun S3 Client, while DNS is managed on [Vercel](https://vercel.com).
 
 We use [Sentry](https://sentry.io) for error handling across our entire stack, [Mixpanel](https://mixpanel.com) for product analytics, and [APITally](https://apitally.io) for server analytics.
 
@@ -58,6 +58,10 @@ All of our AI + LLM tooling is powered by [Anthropic](https://anthropic.com) pro
 Our frontend app is hosted at [app.sharingexcess.com](https://app.sharingexcess.com), and is designed to be installed as a PWA on iOS, Android and Mac. It's built with [React](https://react.dev) (currently v18), packaged using [Vite](https://vitejs.dev) (and [VitePWA](https://vite-pwa-org.netlify.app) for mobile native install and offline support). We use [Chakra UI](https://v2.chakra-ui.com) as our primary UI library, [Tanstack Query](https://tanstack.com/query) for data fetching, [Tanstack Form](https://tanstack.com/form) for form management, [Tanstack Store](https://tanstack.com/store) for state management (yep, big Tanstack fans), [Clerk](https://clerk.com) for user management and authentication, and [Mapbox](https://mapbox.com) for all location services and routing.
 
 Our API server is hosted at [api.sharingexcess.com](https://api.sharingexcess.com), complete with [OpenAPI Docs](https://api.sharingexcess.com/openapi) and live genereated [Database Schema Diagrams](https://api.sharingexcess.com/schema). It's built with [Hono](https://hono.dev), using [@hono/zod-openapi](https://hono.dev/examples/zod-openapi).
+
+Our Stroage/S3 Proxy server is hosted at [storage.sharingexcess.com](https://storage.sharingexcess.com), offering public file serving and private file browsing, previewing, and admin operations. This is also built with [Hono](https://hono.dev) and served via Railway.
+
+Our cron-baseed services for backups and storage cleanup are deployed via Docker and Railway, using their built-in cron scheduling implementation.
 
 Our PostgreSQL database is configured with [Drizzle ORM](https://orm.drizzle.team) for schema and connection management, and hosted with [Neon](https://neon.tech).
 
