@@ -37,7 +37,7 @@ Our tech platform consists of a number of data systems, servers, and web + mobil
 
 <br />
 
-<img width="100%" alt="system architecture" src="https://github.com/user-attachments/assets/da522743-9a33-4ebd-a2a1-869e5dec9dd7" />
+<img width="100%" alt="system architecture" src="https://github.com/user-attachments/assets/a54d8865-d16d-41a2-9cfd-24aa35f41e52" />
 
 _View the system architecture in [Figma](https://www.figma.com/board/A3F4g1bKS3iPit9UhfbpuI/SE-Tech---System-Architecture?node-id=0%3A1&t=s7QtRaC8GjB2v1Ah-1)_
 
