@@ -1,9 +1,12 @@
+<img width="100%" alt="open-graph" src="https://github.com/user-attachments/assets/0839024b-64e3-4eb8-b94b-64aff5b830c2" />
 
-# Hey There! We're Sharing Excess, and we're building software to solve scarcity with surplus.
+## Hey There! We're Sharing Excess, and we're building software to solve scarcity with surplus.
 
 Sharing Excess is a 501(c)(3) nonprofit organization based in Philadelphia, PA. We work across the country to fight food insecurity by redistributing surplus food from farms, wholesalers, and retailers to local community hunger organizations. Since 2018, we've managed the distribution of over 150 million lbs. of food to our network of over 1,500 community partners in Philadelphia, New York, Washington DC, Chicago, Detroit, Los Angeles, and across the country.
 
 Learn more about Sharing Excess at [sharingexcess.com](https://sharingexcess.com).
+
+Below you'll find a high-level overview of our team, mission, and platform architecture. For specific developer documentation and "getting started" guides, check out [docs.sharingexcess.com](https://docs.sharingexcess.com).
 
 ## Our Team
 
@@ -60,6 +63,8 @@ Our frontend app is hosted at [app.sharingexcess.com](https://app.sharingexcess.
 Our API server is hosted at [api.sharingexcess.com](https://api.sharingexcess.com), complete with [OpenAPI Docs](https://api.sharingexcess.com/openapi) and live genereated [Database Schema Diagrams](https://api.sharingexcess.com/schema). It's built with [Hono](https://hono.dev), using [@hono/zod-openapi](https://hono.dev/examples/zod-openapi).
 
 Our Stroage/S3 Proxy server is hosted at [storage.sharingexcess.com](https://storage.sharingexcess.com), offering public file serving and private file browsing, previewing, and admin operations. This is also built with [Hono](https://hono.dev) and served via Railway.
+
+Our documentation site is hoted at [docs.sharingexcess.com](https://docs.sharingexcess.com), and is built with [NextJS](https://nextjs.org) and [Fumadocs](https://fumadocs.dev), offering a detailed breakdown of our terminology and impact measurement calculations, and a litany of detailed developer docs.
 
 Our cron-baseed services for backups and storage cleanup are deployed via Docker and Railway, using their built-in cron scheduling implementation.
 
