@@ -16,6 +16,7 @@ Tech @ Sharing Excess is a team of volunteers, students, part and full-time cont
 
 Ryan McHenry: [@ryanmarshallmc](https://github.com/ryanmarshallmc)
 Tate Gallagher: [@tategallagher](https://github.com/tategallagher)
+Jill Tracy: [@jiitra](https://github.com/jiitra)
 Satwik Shresth: [@satwikShresth](https://github.com/satwikShresth)
 
 ### Tech Team Mission
@@ -34,13 +35,13 @@ Sharing Excess's mission requires the support of partners and funders, and we co
 We understand that our work today may not look exactly like our work tomorrow, and prioritize building tools and models that can grow and change with us. We consciously balance creating tailored experiences against the urge to over-optimize for the present. 
 
 
-## The SE Platform
+## The Surplus Platfrom
 
-Our tech platform consists of a number of data systems, servers, and web + mobile based clients that allow the SE team to rescue food around the clock, around the country. Here's a basic (and hopefully current) map of the system (updated September 2025):
+Our tech platform, lovingly dubbed <b>Surplus</b>, consists of a number of data systems, servers, and web + mobile based clients that allow the SE team to rescue food around the clock, around the country. Here's a basic (and hopefully current) map of the system (updated September 2025):
 
 <br />
 
-<img width="100%" alt="system architecture" src="https://github.com/user-attachments/assets/81840104-608d-457d-a538-6ea1f2d2d21c" />
+<img width="1088" height="815" alt="architecture" src="https://github.com/user-attachments/assets/550aa0db-c760-4a8b-b903-17c2b9fec5f9" />
 
 _View the system architecture in [Figma](https://www.figma.com/board/A3F4g1bKS3iPit9UhfbpuI/SE-Tech---System-Architecture?node-id=0%3A1&t=s7QtRaC8GjB2v1Ah-1)_
 
@@ -52,17 +53,15 @@ First and foremost, we are a Typescript shop, for the front and back end. Our sy
 
 We're big supporters of [Bun](https://bun.com) and use it as our runtime for all services (as well as package management).
 
-We deploy and host our services using [Docker](https://www.docker.com) on [Railway](https://railway.com), also using their S3 service for object storage via the Bun S3 Client, while DNS is managed on [Vercel](https://vercel.com).
+We deploy and host our services using [Docker](https://www.docker.com) on [Railway](https://railway.com), while DNS is managed on [Vercel](https://vercel.com).
 
-We use [Sentry](https://sentry.io) for error handling across our entire stack, [Mixpanel](https://mixpanel.com) for product analytics, and [APITally](https://apitally.io) for server analytics.
+We use [Sentry](https://sentry.io) for error handling across our entire stack, and [APITally](https://apitally.io) for server analytics.
 
 All of our AI + LLM tooling is powered by [Anthropic](https://anthropic.com) proxied by our API server.
 
-Our frontend app is hosted at [app.sharingexcess.com](https://app.sharingexcess.com), and is designed to be installed as a PWA on iOS, Android and Mac. It's built with [React](https://react.dev) (currently v18), packaged using [Vite](https://vitejs.dev) (and [VitePWA](https://vite-pwa-org.netlify.app) for mobile native install and offline support). We use [Chakra UI](https://v2.chakra-ui.com) as our primary UI library, [Tanstack Query](https://tanstack.com/query) for data fetching, [Tanstack Form](https://tanstack.com/form) for form management, [Tanstack Store](https://tanstack.com/store) for state management (yep, big Tanstack fans), [Clerk](https://clerk.com) for user management and authentication, and [Mapbox](https://mapbox.com) for all location services and routing.
+Our frontend app is hosted at [app.sharingexcess.com](https://app.sharingexcess.com), and is designed to be installed as a PWA on iOS, Android and Mac. It's built with [React](https://react.dev) (currently v19), packaged using [Vite](https://vitejs.dev) (and [VitePWA](https://vite-pwa-org.netlify.app) for mobile native install and offline support). We use Tailwind and Shadcn UI for UI, [Tanstack Query](https://tanstack.com/query) for data fetching, [Tanstack Form](https://tanstack.com/form) for form management, [Tanstack Store](https://tanstack.com/store) for state management (yep, big Tanstack fans), and [Mapbox](https://mapbox.com) for all location services and routing.
 
-Our API server is hosted at [api.sharingexcess.com](https://api.sharingexcess.com), complete with [OpenAPI Docs](https://api.sharingexcess.com/openapi) and live genereated [Database Schema Diagrams](https://api.sharingexcess.com/schema). It's built with [Hono](https://hono.dev), using [@hono/zod-openapi](https://hono.dev/examples/zod-openapi).
-
-Our Stroage/S3 Proxy server is hosted at [storage.sharingexcess.com](https://storage.sharingexcess.com), offering public file serving and private file browsing, previewing, and admin operations. This is also built with [Hono](https://hono.dev) and served via Railway.
+Our API server is hosted at [api.sharingexcess.com](https://api.sharingexcess.com), complete with [OpenAPI Docs](https://api.sharingexcess.com/openapi). It's built with [Hono](https://hono.dev), using [@hono/zod-openapi](https://hono.dev/examples/zod-openapi).
 
 Our documentation site is hoted at [docs.sharingexcess.com](https://docs.sharingexcess.com), and is built with [NextJS](https://nextjs.org) and [Fumadocs](https://fumadocs.dev), offering a detailed breakdown of our terminology and impact measurement calculations, and a litany of detailed developer docs.
 
