@@ -17,7 +17,7 @@ Tech @ Sharing Excess is a team of volunteers, students, part and full-time cont
 Ryan McHenry: [@ryanmarshallmc](https://github.com/ryanmarshallmc)
 Tate Gallagher: [@tategallagher](https://github.com/tategallagher)
 Jill Tracy: [@jiitra](https://github.com/jiitra)
-Satwik Shresth: [@satwikShresth](https://github.com/satwikShresth)
+Gurleen Singh: [@gurleen](https://github.com/gurleen)
 
 ### Tech Team Mission
 
